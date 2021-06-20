@@ -137,7 +137,7 @@ msgstr "Ölçüm Kipi"
 
 #: zenphoto/zp-core/functions.php:89
 msgid "Flash Fired"
-msgstr "Flaş Çakıldı"
+msgstr "Flaş Kullanıldı"
 
 #: zenphoto/zp-core/functions.php:90
 msgid "Original Width"
@@ -307,33 +307,33 @@ msgstr ""
 #: zenphoto/zp-core/functions.php:896
 #, fuzzy, php-format
 msgid "A comment has been placed in moderation on your album \"%1$s\"."
-msgstr "Ihr Kommentar wurde im Album \"%1$s\" zur Moderation vorgemerkt."
+msgstr "Yorumunuz \"%1$s\" albümünde moderasyon için beklemeye alındı."
 
 #: zenphoto/zp-core/functions.php:898
 #, fuzzy, php-format
 msgid "A comment has been posted on your album \"%1$s\"."
-msgstr "Es wurde ein Kommentar zu Ihrem Album \"%1$s\" abgegeben."
+msgstr "\"%1$s\" albümü için bir yorum gönderildi."
 
 #: zenphoto/zp-core/functions.php:904
 #, fuzzy, php-format
 msgid "A comment has been placed in moderation on your article \"%1$s\"."
 msgstr ""
-"Ihr Kommentar zur Ihrem Artikel \"%1$s\" wurde zur Moderation vorgemerkt."
+"\"%1$s\" Yazısına yaptığınız yorum moderasyon için beklemeye alındı."
 
 #: zenphoto/zp-core/functions.php:906
 #, fuzzy, php-format
 msgid "A comment has been posted on your article \"%1$s\"."
-msgstr "Ihr Kommentar wurde zum Artikel \"%1$s\" abgegeben."
+msgstr "\"%1$s\" adlı makale için yorumunuz gönderildi."
 
 #: zenphoto/zp-core/functions.php:912
 #, fuzzy, php-format
 msgid "A comment has been placed in moderation on your page \"%1$s\"."
-msgstr "Ihr Kommentar zur Seite \"%1$s\" wurde zur Moderation vorgemerkt."
+msgstr "\"%1$s\" adlı sayfanıza bir yorum eklendi."
 
 #: zenphoto/zp-core/functions.php:914
 #, fuzzy, php-format
 msgid "A comment has been posted on your page \"%1$s\"."
-msgstr "Ihr Kommentar wurde zur Seite \"%1$s\" abgegeben."
+msgstr "\"%1$s\" sayfanıza bir yorum gönderildi."
 
 #: zenphoto/zp-core/functions.php:922
 #, fuzzy, php-format
@@ -341,13 +341,13 @@ msgid ""
 "A comment has been placed in moderation on your image \"%1$s\" in the album "
 "\"%2$s\"."
 msgstr ""
-"Ein Kommentar zu Ihrem Bild \"%1$s\" im Album \"%2$s\" wartet auf Moderation."
+"\"%2$s\" albümündeki \"%1$s\" resminize yapılan bir yorum denetlenmeyi bekliyor."
 
 #: zenphoto/zp-core/functions.php:924
 #, fuzzy, php-format
 msgid "A comment has been posted on your image \"%1$s\" in the album \"%2$s\"."
 msgstr ""
-"Es wurde ein Kommentar zu Ihrem Bild \"%1$s\" im Album \"%2$s\" abgegeben."
+"\"%2$s\" albümündeki \"%1$s\" resminize bir yorum gönderildi."
 
 #: zenphoto/zp-core/functions.php:930
 #, fuzzy, php-format
@@ -359,10 +359,10 @@ msgid ""
 "\n"
 "%4$s"
 msgstr ""
-"Autor: %1$s\n"
+"Sahip: %1$s\n"
 "E-Mail: %2$s\n"
 "Website: %3$s\n"
-"Kommentar:\n"
+"Yorum:\n"
 "\n"
 "%4$s"
 
@@ -372,7 +372,7 @@ msgid ""
 "You can view all comments about this item here:\n"
 "%1$s"
 msgstr ""
-"Sie können alle Kommentare dazu hier ansehen:\n"
+"Bu öğeyle ilgili tüm yorumları burada görüntüleyebilirsiniz:\n"
 "%1$s"
 
 #: zenphoto/zp-core/functions.php:932
@@ -381,7 +381,7 @@ msgid ""
 "You can edit the comment here:\n"
 "%1$s"
 msgstr ""
-"Sie können den Kommentare hier bearbeiten:\n"
+"Yorumunu buradan düzenleyebilirsin:\n"
 "%1$s"
 
 #: zenphoto/zp-core/functions.php:956
@@ -394,8 +394,8 @@ msgid ""
 "Zenphoto found no theme scripts. Please check the <em>%s</em> folder of your "
 "installation."
 msgstr ""
-"Zenphoto hat keine Themedateien gefunden. Bitte überprüfen Sie den <em>%s</"
-"em>Ordner Ihrer Installation."
+"Zenphoto tema komut dosyası bulamadı. Lütfen <em>%s</em> klasörünüzü kontrol edin."
+"kurulum"
 
 #: zenphoto/zp-core/functions.php:1499
 msgid "Unknown name"
@@ -435,8 +435,8 @@ msgid ""
 "You are receiving this e-mail because of a password reset request on your "
 "Zenphoto gallery."
 msgstr ""
-"Sie erhalten diese E-Mail aufgrund einer Passwortresetanfrage auf Ihrer "
-"Zenphoto-Galerie."
+"Bu e-postayı, cihazınızdaki bir parola sıfırlama isteği nedeniyle alıyorsunuz."
+"Zenphoto Galeri."
 
 #: zenphoto/zp-core/auth_zp.php:102
 #, fuzzy, php-format
@@ -444,13 +444,12 @@ msgid ""
 "You are receiving this e-mail because of a password reset request on your "
 "Zenphoto gallery from a user who tried to log in as %s."
 msgstr ""
-"Sie erhalten diese E-Mail aufgrund einer Passwortresetanfrage auf Ihrer "
-"Zenphoto-Galerie aufgrund eines Benutzers, der sich als %s anzumelden "
-"versuchte."
+"Bu e-postayı, cihazınızdaki bir parola sıfırlama isteği nedeniyle alıyorsunuz."
+"%s olarak oturum açmaya çalışan bir kullanıcıdan Zenphoto galerisi"
 
 #: zenphoto/zp-core/auth_zp.php:141
 msgid "There was no one to which to send the reset request."
-msgstr ""
+msgstr "Sıfırlama isteği gönderilecek kimse yok."
 
 #: zenphoto/zp-core/auth_zp.php:149
 #, fuzzy, php-format
@@ -463,8 +462,8 @@ msgid ""
 "If you do not wish to reset your passwords just ignore this message. This "
 "ticket will automatically expire in 3 days."
 msgstr ""
-"Wenn Sie Ihr Passwort nicht zurücksetzen wollen, ignorieren Sie einfach "
-"diese Nachricht. Das Ticket wird automatisch nach 3 Tagen ungültig."
+"Parolalarınızı sıfırlamak istemiyorsanız bu mesajı dikkate almayın. Bu"
+"bu talep 3 gün sonra otomatik olarak sonlandırılacak."
 
 #: zenphoto/zp-core/auth_zp.php:151
 msgid "The Zenphoto information you requested"
@@ -489,8 +488,8 @@ msgid_plural ""
 "<strong>Note</strong>: passwords must be at least %1$u characters long and "
 "contain at least one character from each of the following groups: %2$s."
 msgstr[0] ""
-"<strong>Anmerkung</strong>: Passwörter müssen mindestens  %1$u Zeichen lang "
-"sein und mindestens eine Zeichen aus  %2$s enthalten."
+"<strong>Dikkat:</strong>: Passwörter Şifreler en az %1$u karakter uzunluğunda olmalıdır ve"
+"%2$s'den en az bir karakter içermelidir."
 
 #: zenphoto/zp-core/lib-auth.php:172
 #, fuzzy, php-format
@@ -500,20 +499,20 @@ msgid_plural ""
 "<strong>Note</strong>: passwords must contain at least one character from "
 "each of the following groups: %s."
 msgstr[0] ""
-"<strong>Anmerkung:</strong> Passwörter müssen mindestens ein Zeichen aus %s "
-"enthalten."
+"<strong>Dikkat:</strong> Şifreler %s'den en az bir karakter içermelidir."
 
 #: zenphoto/zp-core/lib-auth.php:177
 #, fuzzy, php-format
 msgid "<strong>Note</strong>: passwords must be at least %u characters long."
-msgstr "<strong>Dikkat</strong>: şifreler en az %u Zeichen lang sein."
+msgstr "<strong>Dikkat</strong>: şifreler en az %u karakter uzunluğunda olmalıdır."
 
 #: zenphoto/zp-core/lib-auth.php:331
 #, php-format
 msgid ""
 "Cannot migrate rights to version %1$s (Zenphoto_Authority supports only %2$s "
 "and %3$s.)"
-msgstr ""
+msgstr "%1$s sürümüne haklar taşınamaz (Zenphoto_Authority yalnızca %2$s'yi destekler "
+"ve %3$s.)"
 
 #: zenphoto/zp-core/lib-auth.php:441 zenphoto/zp-core/lib-auth.php:456
 #: zenphoto/zp-core/lib-auth.php:475
@@ -592,7 +591,7 @@ msgstr "Galeri"
 
 #: zenphoto/zp-core/lib-auth.php:457 zenphoto/zp-core/lib-auth.php:477
 msgid "Users with this right may view the admin overview page."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar yönetici genel bakış sayfasını görüntüleyebilir."
 
 #: zenphoto/zp-core/lib-auth.php:458
 msgid ""
@@ -601,22 +600,30 @@ msgid ""
 "those checked in his managed object lists or as granted by View Search or "
 "View Gallery."
 msgstr ""
+"Bu yetkiye sahip kullanıcılar, korumadan bağımsız olarak tüm galeriyi görüntüleyebilir."
+"sayfanın. Bu hak olmadan, kullanıcı yalnızca herkese açık olanları görebilir ve"
+"Yönetilen nesne listelerinde kontrol edilenler veya Aramayı Görüntüle veya"
+"Galeriyi Görüntüle."
 
 #: zenphoto/zp-core/lib-auth.php:459 zenphoto/zp-core/lib-auth.php:488
 msgid ""
 "Users with this right may upload to the albums for which they have "
 "management rights."
 msgstr ""
+"Bu yetkiye sahip kullanıcılar, sahip oldukları albümlere yükleme yapabilirler."
+"yönetim hakları."
 
 #: zenphoto/zp-core/lib-auth.php:460 zenphoto/zp-core/lib-auth.php:486
 msgid ""
 "When the comment_form plugin is used for comments and its \"Only members can "
 "comment\" option is set, only users with this right may post comments."
 msgstr ""
+"comment_form eklentisi yorumlar için kullanıldığında ve onun \"Yalnızca üyeler şunları yapabilir:"
+"comment\" seçeneği ayarlandığında, yalnızca bu hakka sahip kullanıcılar yorum gönderebilir."
 
 #: zenphoto/zp-core/lib-auth.php:461 zenphoto/zp-core/lib-auth.php:487
 msgid "Users with this right may make comments tab changes."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar yorum sekmesinde değişiklik yapabilir."
 
 #: zenphoto/zp-core/lib-auth.php:462 zenphoto/zp-core/lib-auth.php:468
 #: zenphoto/zp-core/lib-auth.php:481 zenphoto/zp-core/lib-auth.php:484
@@ -627,7 +634,7 @@ msgstr "Albümler"
 
 #: zenphoto/zp-core/lib-auth.php:462 zenphoto/zp-core/lib-auth.php:493
 msgid "Users with this right may access the \"albums\" tab to make changes."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar, değişiklik yapmak için \"albums\" sekmesine erişebilir."
 
 #: zenphoto/zp-core/lib-auth.php:463 zenphoto/zp-core/lib-auth.php:466
 #: zenphoto/zp-core/lib-auth.php:483 zenphoto/zp-core/lib-auth.php:491
@@ -638,7 +645,7 @@ msgstr "Sayfalar"
 
 #: zenphoto/zp-core/lib-auth.php:463 zenphoto/zp-core/lib-auth.php:491
 msgid "Users with this right may edit and manage Zenpage pages."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar Zenpage sayfalarını düzenleyebilir ve yönetebilir."
 
 #: zenphoto/zp-core/lib-auth.php:464 zenphoto/zp-core/lib-auth.php:467
 #: zenphoto/zp-core/lib-auth.php:482 zenphoto/zp-core/lib-auth.php:490
@@ -651,6 +658,7 @@ msgstr "Haberler"
 msgid ""
 "Users with this right may edit and manage Zenpage articles and categories."
 msgstr ""
+"Bu yetkiye sahip kullanıcılar, Zenpage makalelerini ve kategorilerini düzenleyebilir ve yönetebilir."
 
 #: zenphoto/zp-core/lib-auth.php:465 zenphoto/zp-core/lib-auth.php:492
 msgid "Files"
@@ -672,6 +680,9 @@ msgid ""
 "only objects to which they have been assigned. This right allows them to "
 "manage any Zenpage page."
 msgstr ""
+"Normalde \"Admin\" haklarına sahip olmayan kullanıcıların yönetmesi kısıtlanır"
+"yalnızca atandıkları nesneler. Bu hak onlara"
+"herhangi bir Zenpage sayfasını yönet."
 
 #: zenphoto/zp-core/lib-auth.php:467 zenphoto/zp-core/lib-auth.php:495
 msgid "Manage all news"
@@ -683,6 +694,9 @@ msgid ""
 "only objects to which they have been assigned. This right allows them to "
 "manage any Zenpage news article or category."
 msgstr ""
+"Normalde \"Admin\" haklarına sahip olmayan kullanıcıların yönetmesi kısıtlanır"
+"yalnızca atandıkları nesneler. Bu hak onlara"
+"herhangi bir Zenpage haber makalesini veya kategorisini yönetin."
 
 #: zenphoto/zp-core/lib-auth.php:468 zenphoto/zp-core/lib-auth.php:497
 msgid ""
@@ -690,12 +704,17 @@ msgid ""
 "only objects to which they have been assigned. This right allows them to "
 "manage any album in the gallery."
 msgstr ""
+"Normalde \"Admin\" haklarına sahip olmayan kullanıcıların yönetmesi kısıtlanır"
+"yalnızca atandıkları nesneler. Bu hak onlara"
+"galerideki herhangi bir albümü yönet."
 
 #: zenphoto/zp-core/lib-auth.php:469 zenphoto/zp-core/lib-auth.php:499
 msgid ""
 "Users with this right may make themes related changes. These are limited to "
 "the themes associated with albums checked in their managed albums list."
 msgstr ""
+"Bu hakka sahip kullanıcılar, temalarla ilgili değişiklikler yapabilir. Bunlarla sınırlı"
+"yönetilen albümler listesinde kontrol edilen albümlerle ilişkili temalar."
 
 #: zenphoto/zp-core/lib-auth.php:470 zenphoto/zp-core/lib-auth.php:471
 #: zenphoto/zp-core/lib-auth.php:472 zenphoto/zp-core/lib-auth.php:477
@@ -707,16 +726,19 @@ msgstr "Genel"
 msgid ""
 "Users with this right may make additions and changes to the set of tags."
 msgstr ""
+"Bu yetkiye sahip kullanıcılar, etiket setine eklemeler ve değişiklikler yapabilir."
 
 #: zenphoto/zp-core/lib-auth.php:471 zenphoto/zp-core/lib-auth.php:502
 msgid "Users with this right may make changes on the options tabs."
-msgstr ""
+msgstr "Bu hakka sahip kullanıcılar, seçeneklerde değişiklik yapabilirler."
 
 #: zenphoto/zp-core/lib-auth.php:472 zenphoto/zp-core/lib-auth.php:503
 msgid ""
 "The master privilege. A user with \"Admin\" can do anything. (No matter what "
 "his other rights might indicate!)"
 msgstr ""
+"Usta ayrıcalığı. \"Admin\" olan bir kullanıcı her şeyi yapabilir. (Ne olursa olsun"
+"diğer hakları gösterebilir!)"
 
 #: zenphoto/zp-core/lib-auth.php:479
 msgid "View gallery"
@@ -726,6 +748,7 @@ msgstr "Galeriyi görüntüle"
 msgid ""
 "Users with this right may view otherwise protected generic gallery pages."
 msgstr ""
+"Bu yetkiye sahip kullanıcılar korunan galeri sayfalarını görüntüleyebilir."
 
 #: zenphoto/zp-core/lib-auth.php:480
 msgid "View search"
@@ -733,7 +756,7 @@ msgstr "Aramayı görüntüle"
 
 #: zenphoto/zp-core/lib-auth.php:480
 msgid "Users with this right may view search pages even if password protected."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar, şifre korumalı olsa bile arama sayfalarını görüntüleyebilir."
 
 #: zenphoto/zp-core/lib-auth.php:481
 msgid "View fullimage"
@@ -741,7 +764,7 @@ msgstr "Resmi tam boyutta görüntüle>"
 
 #: zenphoto/zp-core/lib-auth.php:481
 msgid "Users with this right may view all full sized (raw) images."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar, bütün tam boyutlu (raw) görselleri görüntüleyebilir."
 
 #: zenphoto/zp-core/lib-auth.php:482
 msgid "View news"
@@ -749,7 +772,7 @@ msgstr "Haberleri görüntüle"
 
 #: zenphoto/zp-core/lib-auth.php:482
 msgid "Users with this right may view all zenpage news articles."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar tüm zenpage haberlerini görüntüleyebilir."
 
 #: zenphoto/zp-core/lib-auth.php:483
 msgid "View pages"
@@ -757,7 +780,7 @@ msgstr "Sayfaları görüntüle"
 
 #: zenphoto/zp-core/lib-auth.php:483
 msgid "Users with this right may view all zenpage pages."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar tüm zenpage sayfalarını görüntüleyebilir."
 
 #: zenphoto/zp-core/lib-auth.php:484
 msgid "View albums"
@@ -765,7 +788,7 @@ msgstr "Albümleri görüntüle"
 
 #: zenphoto/zp-core/lib-auth.php:484
 msgid "Users with this right may view all albums (and their images)."
-msgstr ""
+msgstr "Bu yetkiye sahip kullanıcılar tüm albümleri (ve görsellerini) görebilirler."
 
 #: zenphoto/zp-core/lib-auth.php:510
 msgid "All rights"
@@ -781,7 +804,7 @@ msgstr "Minimum şifre uzunluğu:"
 
 #: zenphoto/zp-core/lib-auth.php:534
 msgid "Minimum number of characters a password must contain."
-msgstr "Bir şifrenin Minimum an Zeichen, die ein Passwort enthalten muß."
+msgstr "Bir parolanın içermesi gereken minimum karakter sayısı."
 
 #: zenphoto/zp-core/lib-auth.php:535
 msgid "Password characters:"
@@ -794,9 +817,7 @@ msgid ""
 "groups. Groups are separated by \"|\". (Use \"\\|\" to represent the \"|\" "
 "character in the groups.)"
 msgstr ""
-"Passwörter müssen mindestens ein Zeichen jeder Gruppen enthalten. Gruppen "
-"sind unterteilt durch \"|\". (Verwenden Sie \"\\|\" für das \"|\" Zeichen in "
-"den Gruppe.)"
+"Parolalar, her bir karakterden en az birini içermelidir."
 
 #: zenphoto/zp-core/admin.php:57
 msgid "Image cache cleared."
@@ -833,7 +854,7 @@ msgstr "tüm resmi önbelleğe al"
 #: zenphoto/zp-core/admin.php:117
 #, fuzzy
 msgid "purge RSS cache"
-msgstr "RSS-Cache löschen"
+msgstr "RSS-Cache Sil"
 
 #: zenphoto/zp-core/admin.php:118
 msgid "reset all hitcounters"
@@ -943,7 +964,7 @@ msgstr "Geçerli dil seçeneği: <strong>%1$s</strong>"
 
 #: zenphoto/zp-core/admin.php:279
 msgid "<strong>Locale setting has failed</strong>"
-msgstr ""
+msgstr "<strong>Yerelleştirme ayarı başarısız oldu.</strong>"
 
 #: zenphoto/zp-core/admin.php:290
 #, php-format
@@ -997,7 +1018,7 @@ msgstr "Captcha oluşturucu: <strong>%s</strong>"
 #: zenphoto/zp-core/admin.php:317
 #, fuzzy
 msgid "There is no mail handler configured!"
-msgstr "Es ist keine E-Mail-Funktionalität konfiguriert!"
+msgstr "Yapılandırılmış e posta işleyicisi yok!"
 
 #: zenphoto/zp-core/admin.php:327
 #, php-format
